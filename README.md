@@ -2,7 +2,7 @@
 
 **Live Demo:** [product-os.vercel.app](https://product-os.vercel.app)
 
-What if every product team had an AI CPO? ProductOS is a 6-agent pipeline that converts raw customer signal — interviews, support tickets, NPS data, feature requests — into a prioritized roadmap, RICE-scored feature board, PRD, KPI framework, and A/B test designs in under 30 seconds.
+What if every product team had an AI CPO? ProductOS is a 6-agent pipeline that converts raw customer signal-interviews, support tickets, NPS data, feature requests - into a prioritized roadmap, RICE-scored feature board, PRD, KPI framework, and A/B test designs in under 30 seconds.
 
 Most AI tools automate work. ProductOS automates product thinking.
 
@@ -141,39 +141,6 @@ Three pre-loaded scenarios, each demonstrating a different agent capability:
 | Input | Paste text or upload .txt / .csv / .md |
 | Deployment | Vercel |
 | Language | TypeScript |
-
----
-
-## Run Locally
-
-```bash
-git clone https://github.com/rahulreddyutd/product-os
-cd product-os
-npm install
-cp .env.local.example .env.local
-# Add your OPENAI_API_KEY
-npm run dev
-```
-
-**Required:**
-- `OPENAI_API_KEY` — powers all six agents
-
-**Input quality note:** Paste at least 150 words of real customer signal. The agents are calibrated for interview transcripts, ticket exports, NPS verbatims, and sales call notes. Summaries produce weaker output than raw data.
-
----
-
-## What This Demonstrates
-
-**For Senior AI PM roles:**
-- Product thinking as architecture: the strategic memo prompt, the schema-first design, the 150-word minimum all reflect PM judgment built into the system
-- Framework fluency: RICE scoring, hypothesis-format experiments, acceptance criteria structure
-- AI evaluation instinct: sourceCount as a confidence signal, confidence normalization, input quality enforcement
-
-**For Senior AI ML Engineer roles:**
-- Parallel agent execution with `Promise.all`
-- Structured JSON output at every agent boundary
-- Type-safe data flow from model output to UI rendering
-- Input validation with UX feedback
 
 ---
 
