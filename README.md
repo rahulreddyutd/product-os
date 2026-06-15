@@ -1,6 +1,6 @@
 # ProductOS — AI Operating System for Product Teams
 
-**Live Demo:** [product-os.vercel.app](https://product-os.vercel.app)
+**Live Demo:** [Link](https://product-os-one.vercel.app/)
 
 What if every product team had an AI CPO? ProductOS is a 6-agent pipeline that converts raw customer signal-interviews, support tickets, NPS data, feature requests - into a prioritized roadmap, RICE-scored feature board, PRD, KPI framework, and A/B test designs in under 30 seconds.
 
